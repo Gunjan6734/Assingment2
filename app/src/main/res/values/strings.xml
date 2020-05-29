@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="create_product">Create Product</string>
+    <string name="show_product">Show Product</string>
+    <string name="product_name"> Product Name</string>
+    <string name="regular_price">Regular Price</string>
+    <string name="sale_price">Sale Price</string>
+    <string name="description">Description</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_product">Add Product</string>
+
+
+    // private String id, name, description,regular_price,sale_price;
+    private Image product_photo;
+</resources>
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/ri_product_iv"
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_height="120dp"/>
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp">
+        <TextView
+            android:id="@+id/ri_product_name_tv"
+            android:padding="5dp"
+            android:text="@string/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/ri_regular_price_tv"
+            android:padding="5dp"
+            android:text="@string/regular_price"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/ri_sale_price_tv"
+            android:padding="5dp"
+            android:text="@string/sale_price"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+</LinearLayout>
+</LinearLayout>
+    <TextView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/ri_desc_tv"
+        android:padding="10dp"
+        android:text="@string/description"
+        android:layout_width="match_parent"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+        <Button
+            android:id="@+id/ri_edit_btn"
+            android:layout_gravity="center_vertical"
+            android:text="Edit"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:padding="4dp"
+            android:background="@drawable/round_corner_bg"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/ri_delete_btn"
+            android:layout_gravity="center_vertical"
+            android:text="Delete"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:padding="4dp"
+            android:background="@drawable/round_corner_bg"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp" />
+
+    </LinearLayout>
+</LinearLayout>
